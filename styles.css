@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #333;
+  text-align: center;
+  color: white;
+  padding: 10px 0;
+}
+.header__title,
+.About__title,
+.Projects__title,
+.contact__title {
+  padding: 10px 0;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 10px;
+  padding: 0;
+  flex-wrap: wrap;
+}
+.nav__link {
+  color: white;
+  text-decoration: none;
+}
+.nav__link--active {
+  color: rgb(255, 128, 0);
+}
+.main {
+  padding: 30px;
+}
+
+.About {
+  margin-bottom: 10px;
+}
+.Projects {
+  margin-bottom: 10px;
+}
+.Projects__cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.proj {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.proj__img {
+  width: 100%;
+  max-width: 500px;
+}
+.proj__title {
+  font-size: 18px;
+}
+.proj__btn {
+  background-color: #333;
+  color: white;
+  padding: 7px;
+  border: none;
+  font-weight: bold;
+}
+
+.form__lable {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.form__inp {
+  padding: 10px 40px;
+  margin-bottom: 10px;
+}
+.form__inp--txtarea {
+  resize: none;
+}
+.form__btn {
+  background-color: #333;
+  color: white;
+  padding: 7px;
+  border: none;
+  font-weight: bold;
+}
+.proj__btn:hover{
+  background-color: white;
+  color: #333;
+  border: #333 solid 1px;
+  font-weight: bold;
+}
+.form__btn:hover{
+  background-color: white;
+  color: #333;
+  border: #333 solid 1px;
+  font-weight: bold;
+}
+.footer{
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
