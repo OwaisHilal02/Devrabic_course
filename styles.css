@@ -73,6 +73,8 @@
   padding: 7px;
   border: none;
   font-weight: bold;
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out;
 }
 
 .form__lable {
@@ -94,6 +96,8 @@
   padding: 7px;
   border: none;
   font-weight: bold;
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out;
 }
 .proj__btn:hover {
   background-color: white;
